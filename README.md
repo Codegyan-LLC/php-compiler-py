@@ -11,6 +11,7 @@ pip install php-compiler-py
 ```
 
 ## Usage
+
 Before using the Pakage, you need to obtain an API key and client ID from Codegyan. Follow these steps to get your API credentials:
 
 1. **Sign Up/Login**: If you don't have an account, sign up for a [Codegyan account](https://www.codegyan.in/). If you already have an account, log in to your dashboard.
@@ -19,16 +20,13 @@ Before using the Pakage, you need to obtain an API key and client ID from Codegy
 
 Here's an example of how to initialize the Pakage with your API key and client ID:
 
-
 - Import the compilePHP function from the package:
 
 ```python
-from php-compiler-py import compilePHP
+from php_compiler_py import compilePHP
 ```
 
-
 - Call the compilePHP function with your API key, client ID, and PHP code:
-
 
 ```python
 apiKey = 'your_api_key'
@@ -40,7 +38,7 @@ print(result)
 
 ```
 
-Replace **'your_api_key'** and **'your_client_id'** with your actual API key and client ID obtained from the Codegyan website. Replace <?php echo "Hello, world!"; ?> with the  code you want to compile.
+Replace **'your_api_key'** and **'your_client_id'** with your actual API key and client ID obtained from the Codegyan website. Replace <?php echo "Hello, world!"; ?> with the code you want to compile.
 
 The function will compile the provided PHP code using the Codegyan API and return the compilation result.
 
@@ -59,4 +57,5 @@ The function will compile the provided PHP code using the Codegyan API and retur
 - **Compatibility :** The package is compatible with both Python 2 and Python 3, ensuring that a wide range of Python environments can utilize its functionality without compatibility issues.
 
 ## License
+
 This project is licensed under the MIT License - see the **[License](https://opensource.org/licenses/MIT)** file for details.
